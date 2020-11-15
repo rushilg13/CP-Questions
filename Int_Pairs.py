@@ -3,7 +3,7 @@ num=list(map(int, input().split()))
 taregt=int(input())
 ans=[]
 for i in range(len(num)):
-    for j in range(i, len(num)):
+    for j in range(i+1, len(num)):
         if(num[i]+num[j]==taregt):
             ans.append(num[i])
             ans.append(num[j])
