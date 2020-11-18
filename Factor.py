@@ -1,4 +1,4 @@
-# Factor
+# Factor of n
 
 n=int(input())
 factors=[]
