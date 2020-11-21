@@ -1,4 +1,4 @@
-# Find number of perf sq in a range
+# Find number of perf sq in a range taken by user
 n1=int(input())
 n2=int(input())
 count=0
