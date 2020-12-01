@@ -101,3 +101,14 @@
 #     print("True")
 # else:
 #     print("False")
+
+
+# Approach 6
+num = str(input())
+s = ""
+for i in range(len(num)-1, -1, -1):
+    s = s+num[i]
+if (s==num):
+    print("True")
+else:
+    print("False")
