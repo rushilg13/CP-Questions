@@ -37,6 +37,7 @@
 # Approach 3
 # import math
 # num = 2002
+# num = abs(num)
 # l = int(math.log10(num)) +1   # Takes O(1) to calculate length
 # if l%2==0:
 #     l1=l2=[]
@@ -80,6 +81,7 @@
 #     return rev(n / 10, temp)
   
 # n = int(input())
+# num = abs(num)
 # temp = rev(n, 0)
   
 # if (temp != n):  
@@ -91,6 +93,7 @@
 
 # Approach 5
 # num = int(input())
+# num = abs(num)
 # temp = num
 # s=""
 # while num>0:
@@ -104,11 +107,14 @@
 
 
 # Approach 6
-num = str(input())
-s = ""
-for i in range(len(num)-1, -1, -1):
-    s = s+num[i]
-if (s==num):
-    print("True")
-else:
-    print("False")
+# num = str(input())
+# num = abs(num)
+# s = ""
+# for i in range(len(num)-1, -1, -1):
+#     s = s+num[i]
+# if (s==num):
+#     print("True")
+# else:
+#     print("False")
+
+
