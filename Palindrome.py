@@ -86,3 +86,18 @@
 #     print("True")  
 # else: 
 #     print("False") 
+
+
+
+# Approach 5
+# num = int(input())
+# temp = num
+# s=""
+# while num>0:
+#     rem = num % 10
+#     s = s + str(rem)
+#     num = int(num/10)
+# if(temp == int(s)):   # or  if(str(temp) == s) ....
+#     print("True")
+# else:
+#     print("False")
